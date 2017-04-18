@@ -15,3 +15,7 @@ TASK:
 ACTION:
 Added a new test called 'shoud get contact' to the 'static_pages_controller_test'. Added a new GET route to 'routes.rb' for the contact page. Added a new action in 'static_pages_controller'.
 Added a new page called 'contact.html.erb'.
+
+3) Chapter 3
+ACTIONS:
+Made us of the 'minitest-reporters' gem which gives better error reports and uses colours for easy visual confirmation of pass and fail.
