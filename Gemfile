@@ -6,7 +6,9 @@ gem 'rails',        '5.0.0'
 
 gem 'puma',         '3.4.0'
 
-gem 'sass-rails',   '5.0.5'
+# gem 'sass-rails',   '5.0.5'
+
+gem 'bootstrap-sass', '3.3.6'
 
 gem 'uglifier',     '3.0.0'
 
