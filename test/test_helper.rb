@@ -12,6 +12,8 @@ class ActiveSupport::TestCase
   
   def setup
     @base_title = "Ruby on Rails Tutorial Sample App"
+    @user_model = User.new(name:"Example User", email: "user@example.com",
+                  password: "foobar", password_confirmation: "foobar")
   end
 
   # Add more helper methods to be used by all tests here...
